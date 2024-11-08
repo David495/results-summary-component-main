@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+.results-full{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+  margin-left: 200px;
+}
+
+.your-result{
+  border: 2px solid blue;
+  background-color:hsl(252, 100%, 67%);
+  color: white;
+  height: 450px;
+ width: 300px;
+ border-radius: 10px;
+}
+
+.circlebg{
+height: 200px;
+width: 200px;
+border: 2px solid hsla(256, 72%, 46%, 1);
+border-radius: 50%;
+background-color: hsla(256, 72%, 46%, 1);
+color: white;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+.m-h3{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gt-1{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.gt-4{
+  text-align: center;
+}
+
+.g-1{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.g-4{
+  text-align: center;
+}
+
+.Sum-div{
+  background-color: rgb(255, 255, 255);
+  height: 450px;
+ width: 300px;
+ border-radius: 10px;
+}
+
+.summary{
+  text-align: center;
+  margin-top: 15px;
+  color: hsl(224, 30%, 27%);
+}
+
+.react-1{
+  display: flex;
+  border: 2px solid  hsl(221, 100%, 96%) ;
+  background-color:  hsl(221, 100%, 96%);
+  height: 60px;
+ width: 280px;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 10px;
+}
+
+.st-img{
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+
+.react-h3{
+  margin-top: 15px;
+  margin-left: 10px;
+  color: hsl(0, 100%, 67%);
+}
+
+.react-h4{
+  margin-left: 100px;
+  margin-top: 15px;
+  color: hsl(224, 30%, 27%);
+}
+
+.Memory{
+  display: flex;
+  border: 2px solid  hsl(221, 100%, 96%) ;
+  background-color:  hsl(221, 100%, 96%);
+  height: 60px;
+ width: 280px;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 10px;
+}
+
+.mem-img{
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+
+.mem-h3{
+  margin-top: 15px;
+  margin-left: 10px;
+  color: hsl(39, 100%, 56%);
+}
+
+.mem-h4{
+  margin-left: 100px;
+  margin-top: 15px;
+  color: hsl(224, 30%, 27%);
+}
+
+.verbal{
+  display: flex;
+  border: 2px solid  hsl(221, 100%, 96%) ;
+  background-color:  hsl(221, 100%, 96%);
+  height: 60px;
+ width: 280px;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 10px;
+}
+
+.veb-h3{
+  margin-top: 15px;
+  margin-left: 10px;
+  color: hsl(166, 100%, 37%);
+}
+
+.veb-h4{
+  margin-left: 100px;
+  margin-top: 15px;
+  color: hsl(224, 30%, 27%);
+}
+
+.Visual{
+  display: flex;
+  border: 2px solid  hsl(221, 100%, 96%) ;
+  background-color:  hsl(221, 100%, 96%);
+  height: 60px;
+ width: 280px;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 10px;
+}
+
+.visual-h3{
+  margin-top: 15px;
+  margin-left: 10px;
+  color: hsl(234, 85%, 45%);
+}
+
+.visual-h4{
+  margin-left: 100px;
+  margin-top: 15px;
+  color: hsl(224, 30%, 27%);
+}
+
+.cont-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(224, 30%, 27%);
+  width: 280px;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.continue{
+  text-decoration: none;
+  width: 280px;
+  height: 60px;
+  color: white;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-align: center; 
+}
+
+@media screen and (max-width:765px) {
+  .results-full{
+    display: grid;
+    padding-left: 30px;
+    padding-right: 200px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .your-result{
+    max-width: 300px;
+  }
+}
